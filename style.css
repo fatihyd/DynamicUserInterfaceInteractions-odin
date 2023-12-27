@@ -1,0 +1,17 @@
+button {
+    width: 120px;
+    height: 70px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.visible {
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+}
