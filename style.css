@@ -1,6 +1,12 @@
-button {
-    width: 120px;
-    height: 70px;
+div {
+    margin: 20px;
+}
+
+.back-button,
+.next-button {
+    width: 80px;
+    height: 40px;
+    background-color: orange;
 }
 
 .dropdown-content {
@@ -14,4 +20,29 @@ button {
 
 .dropdown {
     position: relative;
+}
+
+img {
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
